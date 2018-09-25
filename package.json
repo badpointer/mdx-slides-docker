@@ -1,0 +1,26 @@
+{
+  "name": "mdx-slides-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"mdx-deck presentation.mdx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badpointer/mdx-slides-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badpointer/mdx-slides-docker/issues"
+  },
+  "homepage": "https://github.com/badpointer/mdx-slides-docker#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "mdx-deck": "^1.7.7",
+    "react-live": "^1.11.0"
+  }
+}

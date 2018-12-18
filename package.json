@@ -21,7 +21,9 @@
   "homepage": "https://github.com/badpointer/mdx-slides-docker#readme",
   "devDependencies": {},
   "dependencies": {
-    "mdx-deck": "^1.7.7",
-    "react-live": "^1.11.0"
+    "mdx-deck": "^1.8.1",
+    "react": "^16.6.3",
+    "react-live": "^1.12.0",
+    "styled-components": "^4.1.2"
   }
 }

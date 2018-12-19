@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Title = styled.h1`
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: white;
     font-family: "Open Sans",sans-serif;
     text-align: left;
@@ -11,7 +11,7 @@ const Title = styled.h1`
 const Heading = styled.h1`
     text-align: left;
     margin-right: 10em;
-    font-size: 2.6em;
+    font-size: 3.6em;
     color: white;
     font-family: "Open Sans",sans-serif;
 `;
@@ -19,19 +19,21 @@ const Heading = styled.h1`
 const DockerImage = styled.img`
     width: 10em;
     margin-left: 25px;
-    border-radius: 20px;
-    border-width: 10px;
+
+    border-width: 5px;
     border-color: rgb(202, 225, 250, .1);   
     border-style: solid;
+    border-radius: 2%;
+    background-color: rgb(202, 225, 250, .6);
 `;
 
 const MB = styled.img`
-    width: 20em;
-    margin-left: 25px;
-    border-radius: 20px;
-    border-width: 10px;
+    width: 50vw;
+    border-width: 5px;
     border-color: rgb(202, 225, 250, .1);   
     border-style: solid;
+    border-radius: 2%;
+    background-color: rgb(202, 225, 250, .6);
 `;
 
 
@@ -39,10 +41,12 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
+    font-size: 1.5em;
     font-weight: 400;
     text-align: left;
     font-family: "Open Sans",sans-serif;
-    margin: 25px;
+    margin-bottom: 25px;
+    
 `;
 
 

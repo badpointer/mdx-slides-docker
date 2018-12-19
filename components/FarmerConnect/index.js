@@ -13,7 +13,7 @@ const DockerGif = styled.img`
     border-color: #00C5E6;   
     border-style: solid;
     border-radius: 50px;
-    width: 50%;
+    width: 26vw;
 `;
 
 const Container = styled.div`

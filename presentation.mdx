@@ -35,10 +35,14 @@ export default Split
 
 # Docker Image
 ```jsx
- FROM ubunto:15.4
- COPY . /app
- RUN make /app
+ FROM badpointer/mdx-deck:latest
+ COPY . /code
+ WORKDIR /code
+ RUN chmod +x /code/bootstrap.sh
  CMD python /app/pp.py
+ RUN npm install -g n --silent
+
+ ENTRYPOINT ["./bootstrap.sh"]
 ```
 ---
 

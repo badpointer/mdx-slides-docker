@@ -73,7 +73,7 @@ const Servies = () => {
                 <ListItem>EC2: Amazon Elastic Compute Cloud</ListItem>
                 <ListItem>ECS: Amazon Elastic Container Service</ListItem>
                 <ListItem>Fargate</ListItem>
-                <ListItem>EKS: Amazon Container Ssrvice for Kubernetes</ListItem>
+                <ListItem>EKS: Amazon Container Service for Kubernetes</ListItem>
             </List>
         </React.Fragment>
     )

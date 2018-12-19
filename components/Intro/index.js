@@ -24,7 +24,7 @@ const Container = styled.div`
 export default () => {
     return (
         <Container>
-            <Title>{`Live Production ❤️ Docker`}</Title>
+            <Title>{`Live Production  ❤️  Docker`}</Title>
             <DockerGif src={'../../img/tenor.gif'}/>
         </Container>
     )

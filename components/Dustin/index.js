@@ -1,17 +1,26 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Title = styled.h2`
-    ont-size: 1.5em;
-    margin-left: 15px;
-    color: white;
-    font-family: "Open Sans",sans-serif;
-`;
+
 
 const DockerImage = styled.img`
-    background-color: rgb(202, 225, 250, .6);
-    width: 40em;
-    margin-left: 25px;
+border-width: 5px;
+border-color: rgb(202, 225, 250, .1);   
+border-style: solid;
+border-radius: 2%;
+background-color: rgb(202, 225, 250, .6);
+    width: 100%;
+    height: auto;
+`;
+
+const ScaleImage = styled.img`
+border-width: 5px;
+border-color: rgb(202, 225, 250, .1);   
+border-style: solid;
+border-radius: 2%;
+background-color: rgb(202, 225, 250, .6);
+    width: 90vw;
+    height: auto;
 `;
 
 const Container = styled.div`
@@ -23,7 +32,7 @@ const Container = styled.div`
 const FargateSlide = () => {
     return (
         <Container>
-            <DockerImage src={'../../img/fargate-1.png'} />
+            <ScaleImage src={'../../img/fargate-1.png'} />
         </Container>
     )
 }
@@ -57,7 +66,7 @@ const DockerKey = () => {
         <Container>
             <DockerImage src={'../../img/d-4.png'} />
         </Container>
-    )  
+    )
 }
 
 const DockerEE = () => {

@@ -3,10 +3,8 @@ import styled from 'styled-components';
 
 
 const Title = styled.h1`
-  font-size: 1.5em;
-  position: 'relative';
+  font-size: 2.5em;
   font-family: "Open Sans",sans-serif;
-  color: white;
 `;
 
 const DockerGif = styled.img`
@@ -14,7 +12,7 @@ const DockerGif = styled.img`
     border-color: #00C2E6;   
     border-style: solid;
     border-radius: 100px;
-    width: 80%;
+    width: 21.5em;
 `;
 
 const Container = styled.div`

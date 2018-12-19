@@ -66,9 +66,23 @@ const VMvsContainers = () => {
     )
 }
 
+const Servies = () => {
+    return (
+        <React.Fragment>
+            <List>
+                <ListItem>EC2: Amazon Elastic Compute Cloud</ListItem>
+                <ListItem>ECS: Amazon Elastic Container Service</ListItem>
+                <ListItem>Fargate</ListItem>
+                <ListItem>EKS: Amazon Container Ssrvice for Kubernetes</ListItem>
+            </List>
+        </React.Fragment>
+    )
+}
+
 
 export default {
     ButWhy,
     MovingContainers,
-    VMvsContainers
+    VMvsContainers,
+    Servies
 }
